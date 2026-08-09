@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>Sirjana Bhusal — Nurse, LDR & Maternal Care</title>
+<meta name="description" content="Sirjana Bhusal — Registered Nurse specializing in Labour & Delivery and maternal care, practicing internationally in Saudi Arabia and Nepal." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="icon" type="image/png" href="imageicon.png">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="vitals-bar" id="vitalsBar" aria-hidden="true"></div>
+
+<button class="nav-fab" id="navFab" aria-label="Open menu" aria-expanded="false">
+  <span class="fab-icon">
+    <svg viewBox="0 0 24 24" class="fab-glyph fab-pulse" aria-hidden="true">
+      <polyline points="1,12 7,12 9,5 12,19 14,12 23,12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <svg viewBox="0 0 24 24" class="fab-glyph fab-close" aria-hidden="true">
+      <line x1="5" y1="5" x2="19" y2="19" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+      <line x1="19" y1="5" x2="5" y2="19" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+</button>
+
+<div class="menu-overlay" id="menuOverlay">
+  <ul class="menu-links">
+    <li style="--i:0"><a href="#about" class="menu-link">About</a></li>
+    <li style="--i:1"><a href="#competencies" class="menu-link">Competencies</a></li>
+    <li style="--i:2"><a href="#experience" class="menu-link">Experience</a></li>
+    <li style="--i:3"><a href="#certifications" class="menu-link">Certifications</a></li>
+    <li style="--i:4"><a href="#beyond" class="menu-link">Beyond Nursing</a></li>
+    <li style="--i:5"><a href="#contact" class="menu-link">Contact</a></li>
+  </ul>
+  <div class="menu-footer">Nursing Campus, Nepalgunj &nbsp;·&nbsp; 2018</div>
+</div>
+
+<header class="hero" id="top">
+
+  <div class="hero-media">
+    <video autoplay loop muted playsinline class="hero-video" poster="">
+      <source src="mountains.mp4" type="video/mp4" />
+    </video>
+    <div class="hero-fallback" aria-hidden="true"></div>
+    <div class="hero-grade" aria-hidden="true"></div>
+    <div class="hero-scrim"></div>
+  </div>
+
+  <div class="hero-content">
+    <div class="id-badge animate-pop">
+    
+      <img src="sirjana-photo.jpg" alt="Sirjana Bhusal" class="id-photo" onerror="this.style.display='none'; this.parentElement.classList.add('no-photo');" />
+      <span class="id-initials">SB</span>
+    </div>
+
+    <p class="eyebrow animate-fade-up">Registered Nurse</p>
+    <h1 class="animate-fade-up delay-1">Sirjana Bhusal</h1>
+    <p class="role-line animate-fade-up delay-2">Labour &amp; Delivery <span class="role-sep">(LDR)</span> &nbsp;·&nbsp; Maternal Care</p>
+
+    <div class="origin-badge animate-fade-up delay-3">
+      <span class="origin-icon-slot">
+        <svg class="origin-icon-fallback" viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="12" cy="12" r="8.4" fill="none" stroke="currentColor" stroke-width="1.3"/>
+          <circle cx="12" cy="12" r="1.6" fill="currentColor" stroke="none"/>
+          <g stroke="currentColor" stroke-width="1.1">
+            <line x1="12" y1="4.2" x2="12" y2="7.4"/>
+            <line x1="12" y1="16.6" x2="12" y2="19.8"/>
+            <line x1="4.2" y1="12" x2="7.4" y2="12"/>
+            <line x1="16.6" y1="12" x2="19.8" y2="12"/>
+          </g>
+        </svg>
+        <!-- Drop a Nepal flag / Buddha icon in as nepal-icon.png — it will replace the line-mark above automatically -->
+        <img src="nepal-icon.png" alt="" class="origin-icon-img"
+             onload="this.previousElementSibling.style.display='none'; this.style.display='block';"
+             onerror="this.style.display='none';" />
+      </span>
+      <span class="origin-copy">
+        <strong>Nepali by birth, proud always.</strong>
+        <em>Rooted in Lumbini, Nepal.</em>
+      </span>
+    </div>
+
+    <div class="hero-cta animate-fade-up delay-4">
+      <a href="#contact" class="btn btn-primary">Get in Touch</a>
+      <a href="cv.html" class="btn btn-secondary">Download CV</a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section id="about" class="section about-section reveal">
+    <p class="eyebrow">Overview</p>
+    <h2 class="serif-h">Care that travels well<br>across borders.</h2>
+    <p class="lead">
+      Over 3+ years of continuing nursing experience, specializing in LDR and maternal care across
+      international, primary healthcare, and field environments.
+    </p>
+
+    <div class="vitals-strip">
+      <div class="vital">
+        <span class="vital-value">3+</span>
+        <span class="vital-label">Years<br>Experience</span>
+      </div>
+      <div class="vital">
+        <span class="vital-value">LDR</span>
+        <span class="vital-label">Primary<br>Specialty</span>
+      </div>
+      <div class="vital">
+        <span class="vital-value">4</span>
+        <span class="vital-label">Languages<br>Spoken</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="competencies" class="section reveal">
+    <p class="eyebrow">Clinical Mastery</p>
+    <h2 class="serif-h">Core Competencies</h2>
+
+    <div class="competency-list">
+      <article class="competency-card">
+        <span class="tag">LDR</span>
+        <h3>Labour &amp; Delivery</h3>
+        <p>Labour assessment, maternal and fetal monitoring, antenatal/intrapartum nursing, postpartum observation, normal and complicated labour support.</p>
+      </article>
+
+      <article class="competency-card">
+        <span class="tag">CTG</span>
+        <h3>Fetal &amp; Maternal Monitoring</h3>
+        <p>CTG / cardiotocography monitoring, fetal heart-rate assessment, uterine activity monitoring, and early recognition of abnormal observations.</p>
+      </article>
+
+      <article class="competency-card">
+        <span class="tag">BLS</span>
+        <h3>Emergency &amp; Critical Response</h3>
+        <p>Basic Life Support, neonatal resuscitation, deterioration recognition, emergency escalation, and patient safety protocols.</p>
+      </article>
+
+      <article class="competency-card">
+        <span class="tag">RX</span>
+        <h3>Medication &amp; Clinical Care</h3>
+        <p>Prescription medication administration, IV fluid management, vital signs observation, pain assessment, and infection control.</p>
+      </article>
+    </div>
+  </section>
+
+ <section class="section international reveal">
+  <p class="eyebrow eyebrow-light">Currently On Duty</p>
+
+  <div class="sulm">
+    <img src="sulaiman.jpg" alt="Dr. Sulaiman Medical Group logo">
+    <h2 class="serif-h light">Dr. Sulaiman Medical Group</h2>
+  </div>
+
+  <p class="intl-location">Saudi Arabia</p>
+
+  <p class="intl-text">
+    Gaining experience in structured clinical workflows, standardized documentation, multidisciplinary
+    collaboration, and culturally diverse patient care.
+  </p>
+</section>
+
+  <section id="experience" class="section reveal">
+    <p class="eyebrow">Career Journey</p>
+    <h2 class="serif-h">Clinical Experience</h2>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <span class="timeline-pulse"></span>
+        <div class="timeline-card">
+          <span class="timeline-date">Present</span>
+          <h3>Dr. Sulaiman Medical Group</h3>
+          <span class="timeline-place">Saudi Arabia</span>
+          <p>International hospital nursing experience focused on LDR and maternal care.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <span class="timeline-pulse"></span>
+        <div class="timeline-card">
+          <span class="timeline-date">Previous</span>
+          <h3>Government Primary Health Centre</h3>
+          <span class="timeline-place">Nepal</span>
+          <p>Primary healthcare nursing and essential community clinical care.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <span class="timeline-pulse"></span>
+        <div class="timeline-card">
+          <span class="timeline-date">Previous</span>
+          <h3>KIDS Project</h3>
+          <span class="timeline-place">Nepal</span>
+          <p>Field nursing initiatives and local community healthcare service.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="certifications" class="section reveal">
+    <p class="eyebrow">Verified Qualifications</p>
+    <h2 class="serif-h">Certifications &amp; Education</h2>
+
+    <div class="cert-grid">
+      <div class="cert-card">
+        <span class="cert-code">BLS</span>
+        <h4>Basic Life Support</h4>
+        <span class="cert-org">Verified Credential</span>
+      </div>
+      <div class="cert-card">
+        <span class="cert-code">NRP</span>
+        <h4>Neonatal Resuscitation Program</h4>
+        <span class="cert-org">Verified Credential</span>
+      </div>
+    </div>
+
+    <div class="edu-card">
+      <h3>Nursing Campus, Nepalgunj</h3>
+      <p>Diploma / Degree in Nursing &nbsp;·&nbsp; 2018</p>
+      <div class="lang-row">
+        <span>Nepali</span>
+        <span>English</span>
+        <span>Hindi</span>
+        <span>Bhojpuri</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="beyond" class="section beyond reveal">
+    <p class="eyebrow">Beyond the Ward</p>
+    <h2 class="serif-h">Human, First.</h2>
+    <p class="beyond-text">
+      Enthusiastic, hardworking, and warm-hearted. Driven by strong family values and love for my father,
+      I find joy in nature, traveling, and celebrating my proud Nepali heritage.
+    </p>
+  </section>
+
+  <section id="contact" class="section reveal">
+    <p class="eyebrow">Get In Touch</p>
+    <h2 class="serif-h">Let's Connect</h2>
+    <div class="contact-card">
+      <p>Open to professional opportunities and clinical collaborations.</p>
+      <a href="mailto:contact@example.com" class="btn btn-primary btn-full">Send a Message</a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2026 Sirjana Bhusal &nbsp;·&nbsp; International Nursing </p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+:root {
+  /* Color */
+  --ink: #16233d;
+  --ink-soft: #2b3648;
+  --slate: #5b6478;
+  --paper: #eff2ee;
+  --card: #ffffff;
+  --coral: #e1566e;
+  --coral-deep: #b93a53;
+  --monitor: #2fa88c;
+  --monitor-bright: #4fe3be;
+  --line: rgba(22, 35, 61, 0.1);
+  --shadow: 0 16px 40px rgba(22, 35, 61, 0.08);
+  --shadow-tight: 0 6px 18px rgba(22, 35, 61, 0.06);
+  --radius: 20px;
+  --radius-sm: 12px;
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--paper);
+  color: var(--ink-soft);
+  line-height: 1.65;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+img { max-width: 100%; display: block; }
+
+.serif-h {
+
+  font-family: 'Fraunces', serif;
+  font-weight: 500;
+  color: var(--ink);
+  font-size: clamp(1.9rem, 7vw, 2.6rem);
+  line-height: 1.12;
+  letter-spacing: -0.01em;
+  margin-bottom: 1.1rem;
+}
+.serif-h.light { color: #fff; }
+
+.eyebrow {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--coral-deep);
+  font-weight: 500;
+  display: inline;
+  margin-bottom: 0.6rem;
+}
+.eyebrow-light { color: var(--monitor-bright); }
+
+/* ---------- Vitals scroll progress ---------- */
+.vitals-bar {
+  position: fixed;
+  top: 0; left: 0;
+  height: 2.5px;
+  width: 0%;
+  background: linear-gradient(90deg, var(--monitor), var(--coral));
+  z-index: 2000;
+  transition: width 0.1s linear;
+}
+
+/* ---------- Floating nav control ---------- */
+/* Made smaller and quieter (crit #16) and tucked further into the corner
+   so it can't sit over the overview copy (crit #15). */
+.nav-fab {
+  position: fixed;
+  right: 1rem;
+  bottom: calc(1rem + env(safe-area-inset-bottom, 0px));
+  z-index: 1500;
+  width: 44px; height: 44px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background: rgba(22, 35, 61, 0.88);
+  color: var(--monitor-bright);
+  box-shadow: 0 8px 18px rgba(22, 35, 61, 0.28);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(6px);
+  transition: transform 0.3s var(--ease), background 0.4s var(--ease);
+}
+.nav-fab::before {
+  content: '';
+  position: absolute;
+  inset: -5px;
+  border-radius: 50%;
+  border: 1.2px solid rgba(47, 168, 140, 0.35);
+  animation: fabRing 2.6s infinite;
+}
+@keyframes fabRing {
+  0% { transform: scale(0.92); opacity: 0.6; }
+  70% { transform: scale(1.16); opacity: 0; }
+  100% { transform: scale(1.16); opacity: 0; }
+}
+.nav-fab:active { transform: scale(0.92); }
+.nav-fab[aria-expanded="true"] {
+  background: var(--coral-deep);
+  color: #fff;
+}
+.nav-fab[aria-expanded="true"]::before { display: none; }
+
+.fab-icon { position: relative; width: 18px; height: 18px; }
+.fab-glyph {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  transition: opacity 0.3s var(--ease), transform 0.35s var(--ease);
+}
+.fab-close { opacity: 0; transform: rotate(-45deg) scale(0.6); }
+.fab-pulse { opacity: 1; transform: rotate(0) scale(1); }
+.nav-fab[aria-expanded="true"] .fab-pulse { opacity: 0; transform: rotate(45deg) scale(0.6); }
+.nav-fab[aria-expanded="true"] .fab-close { opacity: 1; transform: rotate(0) scale(1); }
+
+/* ---------- Full-screen mobile menu ---------- */
+.menu-overlay {
+  position: fixed;
+  inset: 0;
+  background: var(--ink);
+  z-index: 900;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 2rem;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-8px);
+  transition: opacity 0.45s var(--ease), transform 0.45s var(--ease), visibility 0.45s;
+}
+.menu-overlay.active { opacity: 1; visibility: visible; transform: translateY(0); }
+
+.menu-links { list-style: none; }
+.menu-links li {
+  opacity: 0;
+  transform: translateY(14px);
+}
+.menu-overlay.active .menu-links li {
+  animation: menuIn 0.5s var(--ease) forwards;
+  animation-delay: calc(var(--i) * 0.06s + 0.1s);
+}
+@keyframes menuIn { to { opacity: 1; transform: translateY(0); } }
+
+.menu-link {
+  display: block;
+  padding: 0.65rem 0;
+  font-family: 'Fraunces', serif;
+  font-size: 1.9rem;
+  color: #f3f1ea;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+.menu-footer {
+  margin-top: 2rem;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  color: rgba(255,255,255,0.4);
+  text-transform: uppercase;
+}
+
+
+.hero {
+  position: relative;
+  min-height: 58vh;
+  min-height: 58svh;
+  max-height: 560px;
+  display: flex;
+  align-items: flex-end;
+  padding: 3rem 1.6rem 0;
+  overflow: hidden;
+}
+
+.hero-media {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+.hero-video {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  /* pull the peak a little higher in frame and recede it slightly so it
+     reads as atmosphere rather than the main subject (crit #1) */
+  object-position: center 32%;
+  transform: scale(1.06);
+  filter: saturate(0.78) brightness(0.84) contrast(1.03) sepia(0.12);
+}
+.hero-fallback {
+  position: absolute; inset: 0;
+  background:
+    radial-gradient(120% 90% at 50% 100%, rgba(225,86,110,0.22), transparent 60%),
+    linear-gradient(180deg, #221a2c 0%, #3a2436 45%, #16233d 100%);
+  opacity: 0;
+  transition: opacity 0.6s var(--ease);
+}
+.hero-grade {
+  position: absolute; inset: 0;
+  background:
+    radial-gradient(140% 90% at 15% 0%, rgba(233, 150, 120, 0.4), transparent 55%),
+    linear-gradient(200deg, rgba(184, 58, 83, 0.32) 0%, rgba(22, 35, 61, 0.05) 65%);
+  mix-blend-mode: soft-light;
+}
+/* Softer, more gradual fade into the page background so the hero doesn't
+   end on a hard edge (crit #11). More intermediate stops = no banding. */
+.hero-scrim {
+  position: absolute; inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(40, 24, 34, 0.56) 0%,
+    rgba(34, 26, 44, 0.5) 30%,
+    rgba(90, 76, 82, 0.42) 55%,
+    rgba(200, 205, 197, 0.75) 80%,
+    var(--paper) 100%
+  );
+}
+.hero-content {
+  position: relative;
+  z-index: 3;
+  width: 100%;
+  max-width: 520px;
+  padding-bottom: 1.6rem;
+}
+
+/* ID badge — clean circular avatar without gradient frame */
+.id-badge {
+  position: relative;
+  width: 116px;
+  height: 116px;
+  margin-bottom: 0.65rem;
+  border-radius: 50%;
+  padding: 0;
+  background: transparent;
+  box-shadow: none;
+  overflow: hidden;
+}
+
+.id-photo {
+  width: 100%; 
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.id-badge.no-photo .id-photo { 
+  display: none; 
+}
+
+.id-initials {
+  display: none;
+  width: 100%; 
+  height: 100%;
+  border-radius: 50%;
+  background: var(--ink);
+  color: var(--monitor-bright);
+  font-family: 'Fraunces', serif;
+  font-size: 2.1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.id-badge.no-photo .id-initials { 
+  display: flex; 
+}
+.hero .eyebrow {
+  color: #ffc9b8;
+  /* small gap under the photo, then a clearer gap before the name (crit #3) */
+  margin-bottom: 0.85rem;
+}
+.hero h1 {
+  font-family: 'Fraunces', serif;
+  font-weight: 500;
+  font-size: clamp(2.4rem, 10vw, 3.2rem);
+  color: #fff;
+  line-height: 1.05;
+  margin-bottom: 0.5rem;
+}
+/* Wraps naturally into two lines on narrow phones (crit #5) — the extra
+   line-height and word-spacing give it room instead of packing edge to edge. */
+.role-line {
+  font-size: 1.02rem;
+  font-weight: 600;
+  color: #ffe1e8;
+  line-height: 1.5;
+  word-spacing: 0.04em;
+  max-width: 24ch;
+  margin-bottom: 0.5rem;
+}
+.role-sep { color: #ffc9b8; font-weight: 500; }
+
+.origin-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin-bottom: 1.7rem;
+  padding: 0.65rem 0.85rem 0.65rem 0.55rem;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.18);
+  border-radius: 16px;
+  backdrop-filter: blur(6px);
+  max-width: fit-content;
+}
+/* Smaller icon frees up width for the copy so it wraps cleanly (crit #8/#9) */
+.origin-icon-slot {
+  position: relative;
+  width: 26px; height: 26px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffc9b8;
+}
+.origin-icon-fallback { width: 15px; height: 15px; }
+.origin-icon-img {
+  display: none;
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.origin-copy { display: flex; flex-direction: column; gap: 0.2rem; }
+.origin-copy strong {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1.3;
+}
+/* Bumped up from 0.78rem so it's not a squint on mobile (crit #7) */
+.origin-copy em {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 0.85rem;
+  line-height: 1.35;
+  color: rgba(255,255,255,0.78);
+}
+
+.hero-cta { display: flex; gap: 0.7rem; }
+
+.btn {
+  padding: 0.85rem 1.5rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 0.88rem;
+  font-weight: 600;
+  transition: transform 0.3s var(--ease), box-shadow 0.3s var(--ease), background 0.3s var(--ease), border-color 0.3s var(--ease);
+  display: inline-block;
+}
+.btn:active { transform: scale(0.96); }
+.btn-primary {
+  background: linear-gradient(135deg, var(--coral), var(--coral-deep));
+  color: #fff;
+  box-shadow: 0 10px 24px rgba(225, 86, 110, 0.35);
+}
+/* Given real weight so it isn't a ghost button next to the primary CTA (crit #18) */
+.btn-secondary {
+  background: rgba(255,255,255,0.16);
+  color: #fff;
+  border: 1.5px solid rgba(255,255,255,0.65);
+  backdrop-filter: blur(6px);
+}
+.btn-secondary:active { background: rgba(255,255,255,0.24); }
+
+/* ---------- Sections ---------- */
+.section { padding: 4rem 1.6rem; max-width: 640px; margin: 0 auto; }
+
+/* Extra room above the first section so the hero doesn't cut off sharply,
+   and more air between the headline and the proof paragraph (crit #14). */
+.about-section { padding-top: 3.4rem; }
+.about-section .serif-h { margin-bottom: 1.5rem; }
+
+.lead { font-size: 1.08rem; color: var(--ink-soft); max-width: 46ch; }
+
+/* Vitals strip — monitor-readout stat chips */
+.vitals-strip {
+  display: flex;
+  gap: 0.7rem;
+  margin-top: 2rem;
+}
+.vital {
+  flex: 1;
+  background: var(--ink);
+  border-radius: var(--radius-sm);
+  padding: 1rem 0.6rem;
+  text-align: center;
+  box-shadow: var(--shadow-tight);
+}
+.vital-value {
+  display: block;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--monitor-bright);
+  text-shadow: 0 0 12px rgba(79,227,190,0.5);
+}
+.vital-label {
+  display: block;
+  font-size: 0.66rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.6);
+  margin-top: 0.35rem;
+  line-height: 1.3;
+}
+
+/* Competency cards */
+.competency-list { display: flex; flex-direction: column; gap: 1rem; margin-top: 1.6rem; }
+.competency-card {
+  background: var(--card);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  box-shadow: var(--shadow-tight);
+  border: 1px solid var(--line);
+  position: relative;
+  transition: transform 0.4s var(--ease), box-shadow 0.4s var(--ease);
+}
+.competency-card:active { transform: scale(0.985); }
+.tag {
+  display: inline-block;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  color: var(--monitor);
+  background: rgba(47,168,140,0.1);
+  padding: 3px 9px;
+  border-radius: 6px;
+  margin-bottom: 0.7rem;
+}
+.competency-card h3 {
+  font-family: 'Fraunces', serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: var(--ink);
+  margin-bottom: 0.4rem;
+}
+.competency-card p { font-size: 0.92rem; color: var(--slate); }
+
+/* International band */
+.international {
+  
+  max-width: none;
+  background: rgb(5, 71, 115);
+  border-radius: 26px;
+  margin: 1.4rem;
+  padding: 3rem 1.6rem;
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+// sulaiman   
+
+
+.international::after {
+  content: '';
+  position: absolute;
+  right: -40px; bottom: -40px;
+  width: 160px; height: 160px;
+  border-radius: 50%;
+  background: rgb(221, 211, 211);
+  
+}
+.sulm {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.sulm img {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+  flex-shrink: 0;
+  border-radius: 8px;
+}
+
+.sulm .serif-h {
+  margin: 0;
+  font-size: clamp(1.45rem, 6vw, 2.2rem);
+  line-height: 1.1;
+}
+.intl-location {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.55);
+  margin-bottom: 1.1rem;
+}
+.intl-text { color: rgba(255,255,255,0.85); max-width: 46ch; }
+
+/* Timeline — CTG-inspired spine */
+.timeline {
+  margin-top: 1.8rem;
+  position: relative;
+  padding-left: 1.5rem;
+}
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 5px; top: 6px; bottom: 6px;
+  width: 2px;
+  background: repeating-linear-gradient(
+    to bottom,
+    var(--monitor) 0, var(--monitor) 6px,
+    transparent 6px, transparent 11px
+  );
+}
+.timeline-item { position: relative; margin-bottom: 1.3rem; }
+.timeline-item:last-child { margin-bottom: 0; }
+.timeline-pulse {
+  position: absolute;
+  left: -1.5rem; top: 6px;
+  width: 12px; height: 12px;
+  border-radius: 50%;
+  background: var(--coral);
+  border: 3px solid var(--paper);
+  box-shadow: 0 0 0 1px var(--coral);
+}
+.timeline-card {
+  background: var(--card);
+  border-radius: var(--radius-sm);
+  padding: 1.2rem 1.3rem;
+  box-shadow: var(--shadow-tight);
+  border: 1px solid var(--line);
+}
+.timeline-date {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--monitor);
+  font-weight: 500;
+}
+.timeline-card h3 {
+  font-family: 'Fraunces', serif;
+  font-size: 1.12rem;
+  color: var(--ink);
+  margin-top: 0.3rem;
+}
+.timeline-place { font-size: 0.8rem; color: var(--slate); }
+.timeline-card p { margin-top: 0.5rem; font-size: 0.9rem; color: var(--slate); }
+
+/* Certifications */
+.cert-grid { display: flex; gap: 0.8rem; margin-top: 1.6rem; margin-bottom: 1rem; }
+.cert-card {
+  flex: 1;
+  background: var(--card);
+  border-radius: var(--radius-sm);
+  padding: 1.3rem 0.9rem;
+  text-align: center;
+  box-shadow: var(--shadow-tight);
+  border: 1px solid var(--line);
+}
+.cert-code {
+  display: inline-block;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 500;
+  font-size: 0.75rem;
+  color: var(--coral-deep);
+  background: rgba(225,86,110,0.1);
+  padding: 4px 10px;
+  border-radius: 8px;
+  margin-bottom: 0.6rem;
+}
+.cert-card h4 { font-family: 'Fraunces', serif; font-size: 1rem; color: var(--ink); font-weight: 500; }
+.cert-org { display: block; font-size: 0.72rem; color: var(--slate); margin-top: 0.3rem; }
+
+.edu-card {
+  background: var(--card);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  box-shadow: var(--shadow-tight);
+  border: 1px solid var(--line);
+}
+.edu-card h3 { font-family: 'Fraunces', serif; font-size: 1.15rem; color: var(--ink); margin-bottom: 0.3rem; }
+.edu-card p { font-size: 0.88rem; color: var(--slate); }
+.lang-row { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
+.lang-row span {
+  background: var(--paper);
+  color: var(--ink);
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.76rem;
+  font-weight: 600;
+  border: 1px solid var(--line);
+}
+
+/* Beyond */
+.beyond {
+  max-width: none;
+  background: linear-gradient(160deg, #fbe4e9, #f6ccd6);
+  border-radius: 26px;
+  margin: 1.4rem;
+  padding: 3rem 1.6rem;
+}
+.beyond .eyebrow { color: var(--coral-deep); }
+.beyond-text { max-width: 46ch; color: var(--ink-soft); font-size: 1.03rem; }
+
+/* Contact */
+.contact-card {
+  background: var(--card);
+  border-radius: var(--radius);
+  padding: 2.2rem 1.6rem;
+  text-align: center;
+  box-shadow: var(--shadow-tight);
+  border: 1px solid var(--line);
+}
+.contact-card p { color: var(--slate); margin-bottom: 1.3rem; }
+.btn-full { display: block; }
+
+footer {
+  text-align: center;
+  padding: 2.2rem 1.4rem 3rem;
+  font-size: 0.75rem;
+  color: var(--slate);
+}
+
+/* ---------- Motion ---------- */
+.animate-fade-up { opacity: 0; transform: translateY(18px); animation: fadeUp 0.9s var(--ease) forwards; }
+.animate-pop { opacity: 0; transform: scale(0.85); animation: popIn 0.8s var(--ease) forwards; }
+.delay-1 { animation-delay: 0.15s; }
+.delay-2 { animation-delay: 0.3s; }
+.delay-3 { animation-delay: 0.45s; }
+.delay-4 { animation-delay: 0.6s; }
+
+@keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
+@keyframes popIn { to { opacity: 1; transform: scale(1); } }
+
+.reveal { opacity: 0; transform: translateY(28px); transition: opacity 0.8s var(--ease), transform 0.8s var(--ease); }
+.reveal.active { opacity: 1; transform: translateY(0); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ---------- Slightly larger screens ---------- */
+@media (min-width: 400px) {
+  .role-line { max-width: none; }
+}
+
+@media (min-width: 560px) {
+  .section { padding: 5rem 2rem; }
+  .cert-grid { max-width: 480px; }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+
+  const navFab = document.getElementById('navFab');
+  const menuOverlay = document.getElementById('menuOverlay');
+  const menuLinks = document.querySelectorAll('.menu-link');
+  const vitalsBar = document.getElementById('vitalsBar');
+  const heroVideo = document.querySelector('.hero-video');
+  const heroFallback = document.querySelector('.hero-fallback');
+
+  // Floating pulse control opens/closes the full-screen menu
+  const closeMenu = () => {
+    menuOverlay.classList.remove('active');
+    navFab.setAttribute('aria-expanded', 'false');
+    navFab.setAttribute('aria-label', 'Open menu');
+  };
+
+  navFab.addEventListener('click', () => {
+    const isOpen = menuOverlay.classList.toggle('active');
+    navFab.setAttribute('aria-expanded', String(isOpen));
+    navFab.setAttribute('aria-label', isOpen ? 'Close menu' : 'Open menu');
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeMenu();
+  });
+
+  menuLinks.forEach(link => link.addEventListener('click', closeMenu));
+
+  // Scroll-triggered reveal
+  const revealElements = document.querySelectorAll('.reveal');
+  const revealObserver = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('active');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+  revealElements.forEach(el => revealObserver.observe(el));
+
+  // Vitals scroll progress bar
+  const updateProgress = () => {
+    const scrollTop = window.scrollY;
+    const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+    const pct = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+    vitalsBar.style.width = pct + '%';
+  };
+  window.addEventListener('scroll', updateProgress, { passive: true });
+  updateProgress();
+
+ 
+  if (heroVideo) {
+    const showFallback = () => { if (heroFallback) heroFallback.style.opacity = '1'; };
+    const hideFallback = () => { if (heroFallback) heroFallback.style.opacity = '0'; };
+
+    heroVideo.addEventListener('error', showFallback, true);
+    heroVideo.addEventListener('loadeddata', hideFallback);
+
+    // No usable source yet -> show fallback immediately
+    if (heroVideo.readyState === 0) {
+      setTimeout(() => {
+        if (heroVideo.readyState === 0) showFallback();
+      }, 400);
+    }
+  }
+});
